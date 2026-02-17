@@ -14,7 +14,7 @@ WordPressで作成した自身のWebサイト上で、実際にサービスと�
 
 ## System Architecture
 システム全体の流れは以下の通りです。
-
+```text
 [User / WordPress] 
       ↓ (1. 悩みとスプレッドをPOST)
 [Google Cloud Functions (Python)]
@@ -24,6 +24,7 @@ WordPressで作成した自身のWebサイト上で、実際にサービスと�
 [Google Cloud Functions]
       ↓ (4. 最終的な結果をレスポンス)
 [WordPress (JSで画面描画)]
+```
 
 ## Tech Stack
 - **Languages**: Python 3.12, JavaScript (ES6+)
