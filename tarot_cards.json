@@ -1,0 +1,760 @@
+[
+  {
+    "name": "THE FOOL",
+    "number": 0,
+    "arcana": "major",
+    "upright_short": "新しい始まり、自由、冒険",
+    "upright_detail": "愚者は旅の始まりを意味し、無限の可能性や自由な精神を象徴します。固定観念に縛られず、自分の直感や好奇心に従って進むことが重要です。",
+    "reversed_short": "無計画、衝動、不注意",
+    "reversed_detail": "逆位置の愚者は、無責任な行動や準備不足を警告します。軽率な選択が失敗に繋がる可能性があります。よく考えてから行動を。"
+  },
+  {
+    "name": "THE MAGICIAN",
+    "number": 1,
+    "arcana": "major",
+    "upright_short": "意志、創造力、行動",
+    "upright_detail": "魔術師は意志の力と現実化の力を象徴します。持っているスキルや資源を活かして、目標を形にしていく力があります。",
+    "reversed_short": "欺瞞、無力、操作",
+    "reversed_detail": "逆位置の魔術師は、他者を操作しようとしたり、偽りの自信に陥る傾向を示唆します。本来の力を見失っている可能性もあります。"
+  },
+  {
+    "name": "THE HIGH PRIESTESS",
+    "number": 2,
+    "arcana": "major",
+    "upright_short": "直感、神秘、潜在意識",
+    "upright_detail": "女教皇は、理性ではなく内なる声や直感を信じるべき時を示します。表面に現れない真実や深い知恵に目を向けましょう。",
+    "reversed_short": "秘密、混乱、抑圧",
+    "reversed_detail": "逆位置では、直感の無視や秘密に翻弄される危険があります。自己認識の不足や心の乱れにも注意が必要です。"
+  },
+  {
+    "name": "THE EMPRESS",
+    "number": 3,
+    "arcana": "major",
+    "upright_short": "豊かさ、母性、創造性",
+    "upright_detail": "女帝は、愛情・美・実り・母性を象徴します。クリエイティブなプロジェクトや家族関係に恵まれた時期を表します。",
+    "reversed_short": "依存、過保護、創造の停滞",
+    "reversed_detail": "逆位置では、過剰な甘えや依存、創造力の枯渇が示唆されます。自立心と内なる創造力の再確認が必要です。"
+  },
+  {
+    "name": "THE EMPEROR",
+    "number": 4,
+    "arcana": "major",
+    "upright_short": "安定、秩序、権威",
+    "upright_detail": "皇帝は、責任・リーダーシップ・構造化された力を象徴します。長期的なビジョンと戦略をもって行動するべきときです。",
+    "reversed_short": "支配、頑固、抑圧",
+    "reversed_detail": "逆位置の皇帝は、権威の乱用や過剰な支配性を警告します。柔軟さを失い、周囲との対立が生じるかもしれません。"
+  },
+  {
+    "name": "THE HIEROPHANT",
+    "number": 5,
+    "arcana": "major",
+    "upright_short": "伝統、精神性、教育",
+    "upright_detail": "教皇は伝統や信仰、道徳的価値観を象徴します。スピリチュアルな学びや師からの教えに耳を傾ける時期です。",
+    "reversed_short": "反抗、独自の道、形式への反発",
+    "reversed_detail": "逆位置では、従来の枠組みやルールから外れたい欲求が強くなります。個人の信念を大切にしつつ、バランスを意識しましょう。"
+  },
+  {
+    "name": "THE LOVERS",
+    "number": 6,
+    "arcana": "major",
+    "upright_short": "愛、調和、選択",
+    "upright_detail": "恋人たちは深い愛情と結びつき、または人生の大きな選択を象徴します。心と魂が一致するような関係や決断が求められます。",
+    "reversed_short": "不一致、誘惑、葛藤",
+    "reversed_detail": "逆位置では、関係性のバランスが崩れていたり、決断に迷いが生じているかもしれません。誠実な対話と内省が必要です。"
+  },
+  {
+    "name": "THE CHARIOT",
+    "number": 7,
+    "arcana": "major",
+    "upright_short": "勝利、意志、前進",
+    "upright_detail": "戦車は、障害を乗り越えて目的を達成する力を象徴します。集中力と決意をもって進むことが成功に繋がります。",
+    "reversed_short": "暴走、意志の弱さ、停滞",
+    "reversed_detail": "逆位置では、コントロールを失った状態や、自信の欠如が問題になる可能性があります。方向性を見直すことが必要です。"
+  },
+  {
+    "name": "STRENGTH",
+    "number": 8,
+    "arcana": "major",
+    "upright_short": "内なる強さ、勇気、忍耐",
+    "upright_detail": "力のカードは、外的な力ではなく内面からの優しさと強さを意味します。自信と忍耐をもって困難に向き合う姿勢が大切です。",
+    "reversed_short": "不安、怒りの爆発、無力感",
+    "reversed_detail": "逆位置では、自信喪失や感情のコントロール不足が示唆されます。感情を見つめ直し、内なる力を取り戻しましょう。"
+  },
+  {
+    "name": "THE HERMIT",
+    "number": 9,
+    "arcana": "major",
+    "upright_short": "内省、探求、孤独",
+    "upright_detail": "隠者は、静かに自分自身と向き合い、内なる真実を見つける旅を象徴します。外界の喧騒を離れて、自分の声を聞く時です。",
+    "reversed_short": "孤立、自己閉鎖、方向喪失",
+    "reversed_detail": "逆位置では、孤立感や過度な引きこもり、人生の方向性に迷っている状態を示すことがあります。他者との交流も視野に入れて。"
+  },
+  {
+    "name": "WHEEL OF FORTUNE",
+    "number": 10,
+    "arcana": "major",
+    "upright_short": "運命、転機、チャンス",
+    "upright_detail": "運命の輪は、人生の流れやサイクルの変化を象徴します。運命の流れに乗ることで新たなチャンスが訪れるでしょう。",
+    "reversed_short": "停滞、予期せぬ変化、流れに逆らう",
+    "reversed_detail": "逆位置では、流れの停滞やアンコントローラブルな出来事が暗示されます。無理に抵抗せず、柔軟に受け入れる姿勢が必要です。"
+  },
+  {
+    "name": "JUSTICE",
+    "number": 11,
+    "arcana": "major",
+    "upright_short": "正義、公正、因果応報",
+    "upright_detail": "正義は、物事のバランスと公平さを表します。正しい判断と責任ある行動が求められるときです。因果関係にも注目を。",
+    "reversed_short": "不公平、不正、偏見",
+    "reversed_detail": "逆位置では、誤った判断や真実の隠蔽が暗示されます。自己正当化や他責思考に陥らないよう、自省が大切です。"
+  },
+  {
+    "name": "THE HANGED MAN",
+    "number": 12,
+    "arcana": "major",
+    "upright_short": "犠牲、視点の転換、忍耐",
+    "upright_detail": "吊るされた男は、自発的な犠牲や一時停止を意味します。視点を変えることで、新たな理解や気づきが得られるでしょう。",
+    "reversed_short": "停滞、自己犠牲の無意味さ、頑なさ",
+    "reversed_detail": "逆位置では、報われない犠牲や思考の硬直を示します。変化を恐れず、柔軟に考え方を見直すことが必要です。"
+  },
+  {
+    "name": "DEATH",
+    "number": 13,
+    "arcana": "major",
+    "upright_short": "終焉と再生、変容、解放",
+    "upright_detail": "死神は物理的な死ではなく、古いものを終わらせて新しい始まりを迎えるという変容の象徴です。不要なものを手放す時です。",
+    "reversed_short": "拒絶、執着、変化への抵抗",
+    "reversed_detail": "逆位置では、変化を恐れたり終わりを受け入れられない状態が示唆されます。新たな成長のためには、手放しが必要です。"
+  },
+  {
+    "name": "TEMPERANCE",
+    "number": 14,
+    "arcana": "major",
+    "upright_short": "調和、節度、バランス",
+    "upright_detail": "節制は、異なる要素の融合や調整を意味します。自分と他者、精神と物質、すべてのバランスを取る時期です。",
+    "reversed_short": "不調和、極端さ、優柔不断",
+    "reversed_detail": "逆位置では、バランスを崩した状態や極端な行動が暗示されます。冷静さを取り戻し、中庸を意識することが大切です。"
+  },
+  {
+    "name": "THE DEVIL",
+    "number": 15,
+    "arcana": "major",
+    "upright_short": "束縛、依存、欲望",
+    "upright_detail": "悪魔は、執着や中毒的な関係、物質的な欲望に縛られている状態を表します。現実を直視し、自らの解放を意識しましょう。",
+    "reversed_short": "解放、回復、自立",
+    "reversed_detail": "逆位置では、依存からの脱却や、精神的な目覚めを示します。自分の意思で囚われから抜け出すタイミングです。"
+  },
+  {
+    "name": "THE TOWER",
+    "number": 16,
+    "arcana": "major",
+    "upright_short": "崩壊、衝撃、啓示",
+    "upright_detail": "塔は、突然の崩壊や価値観の崩れを意味しますが、それによって新しい真実や再構築のチャンスがもたらされます。",
+    "reversed_short": "回避、恐れ、内面的崩壊",
+    "reversed_detail": "逆位置では、避けがたい変化への抵抗や、内面的な動揺を示します。受け入れる勇気が再生の第一歩です。"
+  },
+  {
+    "name": "THE STAR",
+    "number": 17,
+    "arcana": "major",
+    "upright_short": "希望、癒し、インスピレーション",
+    "upright_detail": "星は、未来への希望と回復を意味します。直感と創造力に導かれて、夢やビジョンが少しずつ形になっていきます。",
+    "reversed_short": "失望、無気力、信頼の欠如",
+    "reversed_detail": "逆位置では、夢や希望を見失い、前に進む力を感じられない状態です。内なる光を再び見つけ出すことが必要です。"
+  },
+  {
+    "name": "THE MOON",
+    "number": 18,
+    "arcana": "major",
+    "upright_short": "幻影、直感、不安",
+    "upright_detail": "月は、真実が見えにくく、不安や幻想に惑わされる時を表します。直感を信じながら、慎重に物事を見極めましょう。",
+    "reversed_short": "明瞭化、欺瞞の露呈、恐怖の克服",
+    "reversed_detail": "逆位置では、混乱から抜け出し、物事がはっきりしてくる兆しです。恐れの正体を見抜くことで、解放が得られます。"
+  },
+  {
+    "name": "THE SUN",
+    "number": 19,
+    "arcana": "major",
+    "upright_short": "成功、喜び、成就",
+    "upright_detail": "太陽は、幸福や成功、純粋な喜びを象徴します。自信と希望に満ちた明るい未来が約束されている時です。",
+    "reversed_short": "一時的な挫折、自己疑念、熱意の低下",
+    "reversed_detail": "逆位置では、幸福や成功を感じにくい状況や、自己評価の低下を示します。明るさを信じる心が鍵となります。"
+  },
+  {
+    "name": "JUDGEMENT",
+    "number": 20,
+    "arcana": "major",
+    "upright_short": "再生、目覚め、評価",
+    "upright_detail": "審判は、過去からの解放と新しいステージへの目覚めを象徴します。内なる呼びかけに応え、再出発をする時です。",
+    "reversed_short": "自己否定、停滞、機会の喪失",
+    "reversed_detail": "逆位置では、自分自身への評価の厳しさや、変化を拒む傾向が見られます。過去を受け入れ、前を向く勇気が必要です。"
+  },
+  {
+    "name": "THE WORLD",
+    "number": 21,
+    "arcana": "major",
+    "upright_short": "完成、統合、達成",
+    "upright_detail": "世界は、長い旅の終わりと、目的の達成を示します。すべてが調和し、ひとつにまとまる瞬間が訪れます。",
+    "reversed_short": "未完、閉塞感、不完全燃焼",
+    "reversed_detail": "逆位置では、目標に届かずに終わった感覚や、達成の妨げが暗示されます。何が足りないかを見つめ直す必要があります。"
+  },
+  {
+    "name": "ACE OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "ace",
+    "upright_short": "情熱、新たな始まり、インスピレーション",
+    "upright_detail": "創造的なエネルギーが湧き上がるタイミング。新たな計画や情熱が芽生え、第一歩を踏み出す好機です。",
+    "reversed_short": "停滞、やる気の欠如、機会の見逃し、自信過剰",
+    "reversed_detail": "逆位置では、情熱を失っていたり、せっかくのチャンスを活かせない状態。内なる炎を再点火する必要があります。"
+  },
+  {
+    "name": "TWO OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "2",
+    "upright_short": "計画、展望、決断",
+    "upright_detail": "将来に向けた計画と選択の時。世界に目を向け、どの道を進むかを決める段階にいます。",
+    "reversed_short": "迷い、視野の狭さ、行動の遅れ、トラブル",
+    "reversed_detail": "逆位置では、決断ができなかったり、リスクを恐れて前進できないことを意味します。大胆さが求められています。"
+  },
+  {
+    "name": "THREE OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "3",
+    "upright_short": "成功の兆し、拡大、遠望、協力者",
+    "upright_detail": "努力が実り始め、さらに遠くを見据える時です。視野を広げ、次のステージへの準備が整っています。",
+    "reversed_short": "準備不足、先行きの不安、機会損失",
+    "reversed_detail": "逆位置では、将来への見通しが甘かったり、適切なタイミングを逃すことを示唆します。戦略の見直しが必要です。"
+  },
+  {
+    "name": "FOUR OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "4",
+    "upright_short": "祝福、安定、コミュニティ、平和、休息",
+    "upright_detail": "家庭や仲間との調和、節目の祝いごとを象徴します。協力した結果、目標を達成し、一息つける時期です。",
+    "reversed_short": "不安定、約束の崩壊、孤立感、不満、不調",
+    "reversed_detail": "逆位置では、祝福のタイミングがずれたり、コミュニティ内の不調和を表します。再確認が大切です。"
+  },
+  {
+    "name": "FIVE OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "5",
+    "upright_short": "競争、試練、切磋琢磨",
+    "upright_detail": "周囲の人々と目標に向かって切磋琢磨する事で、大きな成長が望めます。他人の意見を取り入れる事も大切です。",
+    "reversed_short": "孤立、争い、対立",
+    "reversed_detail": "逆位置では、争いが起きてしまう可能性があります。自分の意見を押し通そうとしない事が吉です。"
+  },
+  {
+    "name": "SIX OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "6",
+    "upright_short": "勝利、賞賛、認知",
+    "upright_detail": "努力の成果が認められ、周囲から賞賛を受ける時です。自信と誇りを持って前進できます。",
+    "reversed_short": "認知不足、過信、虚栄心、目標達成の遅れ",
+    "reversed_detail": "逆位置では、望んだ評価が得られなかったり、成功を焦るあまり虚勢を張ることを意味します。"
+  },
+  {
+    "name": "SEVEN OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "7",
+    "upright_short": "防衛、挑戦、信念の維持、優位な立場",
+    "upright_detail": "競争や反対意見にさらされながらも、自分の立場を守る強さが試されています。自信を持って踏ん張る時です。",
+    "reversed_short": "防戦一方、優柔不断、現状の停滞",
+    "reversed_detail": "逆位置では、プレッシャーに負けそうになっていたり、自信を失っていたりしている状態。冷静に戦略を練り直すことが必要です。"
+  },
+  {
+    "name": "EIGHT OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "8",
+    "upright_short": "急展開、スピード、進展",
+    "upright_detail": "物事が急速に動き始め、前進していく時期です。連絡やアイデアがスムーズに流れ、停滞からの脱却が期待されます。",
+    "reversed_short": "遅延、混乱、伝達ミス",
+    "reversed_detail": "逆位置では、物事が進まなかったり、計画の遅れやコミュニケーションの問題が発生している可能性があります。"
+  },
+  {
+    "name": "NINE OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "9",
+    "upright_short": "粘り強さ、防御、警戒心",
+    "upright_detail": "困難な状況でも、諦めずに立ち向かう姿勢を表します。過去の経験が今の備えにつながっています。",
+    "reversed_short": "疲労、停滞、苦境、準備不足",
+    "reversed_detail": "逆位置では、衝突を恐れて保守的になっていたり、疲労感や準備不足で前に進めなくなっている状態を示します。"
+  },
+  {
+    "name": "TEN OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "10",
+    "upright_short": "重荷、責任、過労",
+    "upright_detail": "責任を抱えすぎて、物事を一人で抱え込んでいる状態です。限界を感じているなら助けを求めましょう。理想は手放さない事。",
+    "reversed_short": "重圧からの解放、責任の分散、手放す",
+    "reversed_detail": "逆位置では、抱えていた重荷を手放すことや、責任を分け合うことが可能なタイミングです。休息を取る事も大切です。"
+  },
+  {
+    "name": "PAGE OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "page",
+    "upright_short": "探求心、冒険、新たな興味",
+    "upright_detail": "新しい情熱が芽生え、学びや体験への好奇心が高まっています。前向きに挑戦を始めるタイミングです。",
+    "reversed_short": "未熟さ、気まぐれ、集中力不足",
+    "reversed_detail": "逆位置では、興味が散漫になりがちで、行動に一貫性が欠けることがあります。目的意識を持つことが重要です。"
+  },
+  {
+    "name": "KNIGHT OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "knight",
+    "upright_short": "冒険心、行動力、情熱的な前進",
+    "upright_detail": "情熱的に物事に取り組み、素早く行動する人物を象徴します。チャンスがあるなら迷わず飛び込むべきです。",
+    "reversed_short": "衝動性、無計画、挫折",
+    "reversed_detail": "逆位置では、勢いだけで突っ走り、計画不足や中断により失敗する可能性があります。冷静な判断が必要です。"
+  },
+  {
+    "name": "QUEEN OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "queen",
+    "upright_short": "自信、魅力、気さく",
+    "upright_detail": "堂々と自分を表現できる人を象徴します。魅力と情熱をもって人を惹きつける存在です。",
+    "reversed_short": "自己中心、嫉妬、無気力",
+    "reversed_detail": "逆位置では、自信を失っていたり、他者への嫉妬や感情の起伏がコントロールできない状態を示します。"
+  },
+  {
+    "name": "KING OF WANDS",
+    "arcana": "minor",
+    "suit": "wands",
+    "rank": "king",
+    "upright_short": "リーダーシップ、情熱的な統率力、ビジョン、達成",
+    "upright_detail": "理想を掲げ、人を導く力を持つリーダーの象徴です。情熱と行動力で道を切り拓いていきます。",
+    "reversed_short": "独裁的、強引、支配欲",
+    "reversed_detail": "逆位置では、周囲を支配しようとする態度や、自分の意見を押し付ける傾向が表れることがあります。柔軟さが求められます。"
+  },
+  {
+    "name": "ACE OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "ace",
+    "upright_short": "繁栄の始まり、物質的なチャンス、安定",
+    "upright_detail": "現実的な成功や安定した始まりを象徴します。金銭、仕事、健康など、地に足のついた進展が期待できます。",
+    "reversed_short": "機会損失、不安定、物質主義",
+    "reversed_detail": "逆位置では、チャンスを逃したり、目先の利益に囚われて本質を見失う恐れがあります。焦らず冷静に現状を把握し、地に足を付ける事が大切です。"
+  },
+  {
+    "name": "TWO OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "2",
+    "upright_short": "バランス、柔軟性、臨機応変",
+    "upright_detail": "複数の物事をうまくやりくりする能力や、変化に柔軟に対応する力を示します。調整が鍵となる時期です。",
+    "reversed_short": "優先順位の混乱、混乱、不安定",
+    "reversed_detail": "逆位置では、タスクに追われて混乱している可能性があります。優先順位の見直しや決断が必要です。"
+  },
+  {
+    "name": "THREE OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "3",
+    "upright_short": "協力、計画、スキルの向上",
+    "upright_detail": "チームワークや専門技術の発展を示します。共同作業により成果が生まれる時期です。",
+    "reversed_short": "不協和、準備不足、孤立、停滞",
+    "reversed_detail": "逆位置では、協力体制が崩れていたり、自分一人で進めようとして問題が発生している可能性があります。"
+  },
+  {
+    "name": "FOUR OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "4",
+    "upright_short": "所有、安定、保守",
+    "upright_detail": "財産や地位を守ることを重視する状態。慎重さが求められますが、過度な執着には注意が必要です。",
+    "reversed_short": "手放し、浪費、不安",
+    "reversed_detail": "逆位置では、執着から解放されることや、物質面の不安定さを意味します。手放す勇気が問われる時です。"
+  },
+  {
+    "name": "FIVE OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "5",
+    "upright_short": "困窮、損失、孤立",
+    "upright_detail": "物質的・精神的に苦しい状況を象徴します。支援を求めることで道が開ける可能性があります。",
+    "reversed_short": "回復の兆し、助けの到来",
+    "reversed_detail": "逆位置では、苦難からの回復や、支援が現れ始めていることを意味します。希望が見え始める段階です。"
+  },
+  {
+    "name": "SIX OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "6",
+    "upright_short": "与えること、支援、平等な関係",
+    "upright_detail": "他人からの援助や、自分が与える立場になることを示します。公平なバランスが重要です。",
+    "reversed_short": "不平等、打算的援助、依存、偽善",
+    "reversed_detail": "逆位置では、与える・受け取るバランスが崩れていたり、支援が見返りを期待したものになっている可能性があります。"
+  },
+  {
+    "name": "SEVEN OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "7",
+    "upright_short": "忍耐、投資、見直し",
+    "upright_detail": "努力の結果を見極め、次のステップに備える時期です。辛抱強く成果を待つ姿勢が大切です。",
+    "reversed_short": "焦り、無駄な努力、期待外れ",
+    "reversed_detail": "逆位置では、成果が思うように得られず、不安や不満を感じている状態を示します。方向転換が必要かもしれません。"
+  },
+  {
+    "name": "EIGHT OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "8",
+    "upright_short": "勤勉、熟練、成長",
+    "upright_detail": "一つのことに真剣に取り組み、スキルを磨く時です。努力の積み重ねが実を結びます。",
+    "reversed_short": "単調さ、怠慢、集中力の欠如、マンネリ",
+    "reversed_detail": "逆位置では、努力を怠っていたり、集中が続かず成長が止まっていることを示します。動機の再確認が必要です。"
+  },
+  {
+    "name": "NINE OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "9",
+    "upright_short": "豊かさ、自立、優雅な生活、繁栄",
+    "upright_detail": "自分の力で豊かさを築いた状態を表します。物質的・精神的な充実と、誇りある孤高を象徴します。",
+    "reversed_short": "虚栄、孤立、不安定な豊かさ、信用を失う",
+    "reversed_detail": "逆位置では、外見の豊かさに囚われていたり、内面の孤独や不安を抱えていることを意味します。目標を再確認し、自立を目指しましょう。"
+  },
+  {
+    "name": "TEN OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "10",
+    "upright_short": "遺産、家族、長期的な成功",
+    "upright_detail": "世代を超える豊かさや家族の安定、伝統を象徴します。物質的にも精神的にも満たされている状態です。",
+    "reversed_short": "家族の問題、金銭トラブル、不安定な未来",
+    "reversed_detail": "逆位置では、家庭や財産に関する不安が生じる可能性を示します。長期的視点での見直しが必要です。"
+  },
+  {
+    "name": "PAGE OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "page",
+    "upright_short": "学習、現実的な目標、新しい価値",
+    "upright_detail": "物質的・実践的な学びに意欲を持つ時期です。将来の成功の種をまく段階です。",
+    "reversed_short": "集中力の欠如、現実逃避、未熟、不誠実",
+    "reversed_detail": "逆位置では、現実的な目標を見失っていたり、無計画に進んでいる状態を表します。計画性が必要です。アドバイスを求めるのもいいでしょう。"
+  },
+  {
+    "name": "KNIGHT OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "knight",
+    "upright_short": "粘り強さ、責任感、地道な努力",
+    "upright_detail": "着実に目標に向かって進む姿勢を象徴します。誠実さと継続が成功の鍵です。",
+    "reversed_short": "頑固、退屈、動きのなさ",
+    "reversed_detail": "逆位置では、変化を恐れて進まなかったり、物事が停滞している状態を示します。柔軟性を持ちましょう。"
+  },
+  {
+    "name": "QUEEN OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "queen",
+    "upright_short": "家庭的、寛容、現実的な愛",
+    "upright_detail": "豊かさや幸福感が手に入ることを表しています。自身の優しさや魅力を発揮していきましょう。",
+    "reversed_short": "依存、自己犠牲、金銭的不安定、空回り",
+    "reversed_detail": "逆位置では、自分を後回しにしすぎていたり、損得勘定を優先しバランスが崩れている可能性があります。ビジョンを明確にし、ネガティブな感情に捕らわれないようにしましょう。"
+  },
+  {
+    "name": "KING OF PENTACLES",
+    "arcana": "minor",
+    "suit": "pentacles",
+    "rank": "king",
+    "upright_short": "富、安定、経済的成功",
+    "upright_detail": "物質的に成功を収め、他人にも支援を与えるリーダー像。責任感が強く、信頼される存在です。自身の力を最大限に発揮していきましょう。",
+    "reversed_short": "貪欲、物質主義、固執、見栄っ張り",
+    "reversed_detail": "逆位置では、物質や地位に過度に執着したり、人を頼れない傾向があります。失う事を恐れて保守的にならず、目標や行動をじっくり見直しましょう。"
+  },
+  {
+    "name": "ACE OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "ace",
+    "upright_short": "知性、真実、突破口",
+    "upright_detail": "ソードのエースは、鋭い洞察力や新たな考えの始まりを意味します。真実を見つめる力があり、決断の時が訪れています。",
+    "reversed_short": "混乱、誤解、決断力の欠如",
+    "reversed_detail": "逆位置では、思考の混乱や判断ミスの可能性があります。事実を正しく見極める冷静さが必要です。"
+  },
+  {
+    "name": "TWO OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "2",
+    "upright_short": "バランス、選択、調和",
+    "upright_detail": "危うさがある一方で、バランスが取れている状態でもあります。感情を排し、理性的な判断が大切です。",
+    "reversed_short": "回避、不均衡、関係の終焉",
+    "reversed_detail": "逆位置では、冷静な分析が出来ていなかったり、バランスを欠いた状態が示されています。目を背けず向き合い、利己的な考えに陥らないよう注意が必要です。"
+  },
+  {
+    "name": "THREE OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "3",
+    "upright_short": "悲しみ、失恋、心の痛み、トラウマ",
+    "upright_detail": "失恋や裏切り、心の傷を象徴します。痛みを受け入れ、癒しのプロセスへ進むための通過点です。",
+    "reversed_short": "癒し、悲しみの克服、困惑、自己疑念",
+    "reversed_detail": "逆位置では、悩みすぎてしまい何事にも集中出来ない可能性があります。自分自身を傷付けず、一歩ずつ回復への道を歩き始めましょう。"
+  },
+  {
+    "name": "FOUR OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "4",
+    "upright_short": "休息、回復、降伏、停止",
+    "upright_detail": "心身の回復が必要な時期です。立ち止まり、エネルギーを蓄えることで、再び前に進む準備が整います。",
+    "reversed_short": "休息の終わり、再スタート",
+    "reversed_detail": "逆位置では、休息期間が終わり、行動を起こすタイミングが来た事を意味します。積極的に行動しましょう。"
+  },
+  {
+    "name": "FIVE OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "5",
+    "upright_short": "衝突、不正、残念な勝利",
+    "upright_detail": "勝ったとしても後味の悪い勝利、または無駄な争いを意味します。誰かを攻撃しない事です。自分の行動が周囲に与える影響を省みましょう。",
+    "reversed_short": "衝突の激化、敗北、被害者",
+    "reversed_detail": "逆位置では、自分の事ばかり優先している可能性があります。攻撃されたら上手く受け流しましょう。自分のやるべき事だけに集中しましょう。"
+  },
+  {
+    "name": "SIX OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "6",
+    "upright_short": "移行、回復、落ち着き",
+    "upright_detail": "困難を乗り越え、穏やかな方向へ向かっている途中です。変化のプロセスの中で、徐々に希望が見えてきます。",
+    "reversed_short": "現状の停滞、過去への固執",
+    "reversed_detail": "逆位置では、変化を恐れて前に進めなかったり、過去にとらわれている状態です。流れに乗る勇気が必要です。"
+  },
+  {
+    "name": "SEVEN OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "7",
+    "upright_short": "策略、秘密、抜け道",
+    "upright_detail": "隠れて行動したり、戦略的な判断を求められる状況です。誠実さとずる賢さのバランスを問われています。自分の心の声に耳を傾ける事も大切です。",
+    "reversed_short": "暴露、誤算、自己欺瞞",
+    "reversed_detail": "逆位置では、隠していたことが明るみに出たり、計画が失敗に終わる可能性があります。または、策略にはまったあなたを助けてくれる人が現れるかもしれません。誠実な対応が重要です。"
+  },
+  {
+    "name": "EIGHT OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "8",
+    "upright_short": "束縛、制限、思い込み",
+    "upright_detail": "自分で自分を縛ってしまっている状態を示します。恐れや思い込みから自由になるためには視点の転換が必要です。",
+    "reversed_short": "解放、新たな視点",
+    "reversed_detail": "逆位置では、束縛からの解放や、自分を制限していた考え方から抜け出す兆しがあります。"
+  },
+  {
+    "name": "NINE OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "9",
+    "upright_short": "不安、悪夢、精神的苦悩",
+    "upright_detail": "眠れぬ夜や心配事が多い時期を表します。思考が感情を圧迫し、心を重くしています。誰かに話すことで軽くなるかもしれません。",
+    "reversed_short": "回復、希望の兆し",
+    "reversed_detail": "逆位置では、重い気持ちから徐々に抜け出し、希望や明るさが見えてくることを意味します。"
+  },
+  {
+    "name": "TEN OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "10",
+    "upright_short": "終焉、痛み、どん底",
+    "upright_detail": "すべてが終わったような感覚や、深い傷を象徴します。しかしこれ以上悪くなることはなく、新たな始まりの前触れでもあります。",
+    "reversed_short": "回復、再出発の兆し",
+    "reversed_detail": "逆位置では、状況が底を打ち、少しずつ回復の兆しが見えてきます。再生の希望を持ちましょう。"
+  },
+  {
+    "name": "PAGE OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "page",
+    "upright_short": "観察、警戒心",
+    "upright_detail": "乗り越えなければならない試練に立ち向かう時です。失敗やトラブルをチャンスに変えて、諦めずにチャレンジしてみましょう。",
+    "reversed_short": "無責任、誤報、不用意な発言",
+    "reversed_detail": "逆位置では、軽率な言動や無責任な行動によるトラブルを暗示します。自分にとって大切なものは何か、落ち着いて考える必要があります。"
+  },
+  {
+    "name": "KNIGHT OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "knight",
+    "upright_short": "行動力、決断、知性による突進",
+    "upright_detail": "ソードのナイトは目的のために素早く行動する姿を表します。知性と決断力で困難に立ち向かうエネルギーがあります。",
+    "reversed_short": "性急、攻撃的、無謀",
+    "reversed_detail": "逆位置では、早まった行動や攻撃的な態度がトラブルを招く暗示です。冷静さを保つことが大切です。"
+  },
+  {
+    "name": "QUEEN OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "queen",
+    "upright_short": "知性、独立、公正さ",
+    "upright_detail": "冷静で理性的な判断ができる人物像を表します。真実を見抜く洞察力と、他者に対する誠実さを持ち合わせています。",
+    "reversed_short": "冷淡、批判的、孤立、融通が利かない",
+    "reversed_detail": "逆位置では、過度な批判や感情の抑制が原因で人と距離を置いてしまう可能性があります。心の柔らかさを意識しましょう。"
+  },
+  {
+    "name": "KING OF SWORDS",
+    "arcana": "minor",
+    "suit": "swords",
+    "rank": "king",
+    "upright_short": "論理的思考、威厳、リーダーシップ",
+    "upright_detail": "ソードのキングは知性と決断力に優れた指導者を象徴します。冷静で公正な判断が尊敬を集めます。",
+    "reversed_short": "冷酷、独裁的、権威の乱用",
+    "reversed_detail": "逆位置では、冷酷さや権力の濫用、感情の欠如が問題になる可能性があります。理性と感情のバランスが鍵です。"
+  },
+  {
+    "name": "ACE OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "ace",
+    "upright_short": "愛の始まり、感情の豊かさ、祝福",
+    "upright_detail": "カップのエースは新たな愛情や感情の芽生えを示します。喜びや感動が心を満たし、精神的な充足感が得られそうです。",
+    "reversed_short": "感情の抑圧、愛の欠如、心に傷を負う",
+    "reversed_detail": "逆位置では、感情を素直に表現できない状況や、愛情の流れが滞っている可能性があります。心のケアを意識しましょう。"
+  },
+  {
+    "name": "TWO OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "2",
+    "upright_short": "パートナーシップ、愛の結びつき",
+    "upright_detail": "二人の心が通い合い、調和した関係が築かれることを示します。恋愛や友情、人間関係での絆の深まりが期待できます。",
+    "reversed_short": "不和、別離、誤解",
+    "reversed_detail": "逆位置では、関係のバランスが崩れていたり、誤解やすれ違いや分裂が生じやすい状態です。コミュニケーションを大切に。"
+  },
+  {
+    "name": "THREE OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "3",
+    "upright_short": "祝福、友情、喜びの共有",
+    "upright_detail": "仲間との祝福や友情、感情を分かち合う喜びを表します。社交的なイベントや、嬉しい報告などのタイミングです。",
+    "reversed_short": "過度な依存、遊びすぎ、現実逃避、不摂生、堕落",
+    "reversed_detail": "逆位置では、行動が軽率になったり、現実逃避をし堕落していく可能性があります。節度が鍵です。"
+  },
+  {
+    "name": "FOUR OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "4",
+    "upright_short": "退屈、感情の停滞、内省、倦怠感",
+    "upright_detail": "心が満たされない感覚や、現状への無関心を表します。新たな可能性に気づくために、内省と視野の広がりが必要です。",
+    "reversed_short": "リセット、気づき、チャンスの到来",
+    "reversed_detail": "逆位置では、停滞していた感情に動きが生まれ、新たな関係や希望が見えてくる兆しがあります。受け取る準備を整えて。"
+  },
+  {
+    "name": "FIVE OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "5",
+    "upright_short": "失望、悲しみ、後悔、損失",
+    "upright_detail": "喪失感や後悔の感情に支配されている状態です。しかし、まだ残された希望や支えに目を向けることが求められます。",
+    "reversed_short": "回復、許し、前進",
+    "reversed_detail": "逆位置では、感情的な痛みから少しずつ立ち直り、再び未来に希望を見出していく過程を示しています。"
+  },
+  {
+    "name": "SIX OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "6",
+    "upright_short": "思い出、純粋な心、過去との再会",
+    "upright_detail": "子どものような純粋さや、懐かしい記憶を象徴します。過去の出来事や人物との再会が心を温めてくれるかもしれません。",
+    "reversed_short": "過去への執着、未熟さ",
+    "reversed_detail": "逆位置では、過去に縛られて前に進めない状況や、感情的な未熟さが課題となっていることがあります。"
+  },
+  {
+    "name": "SEVEN OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "7",
+    "upright_short": "幻想、選択肢の多さ、誘惑",
+    "upright_detail": "夢や想像が広がり、様々な可能性が目の前に現れる時期です。しかしその幻想に捕らわれず、現実を見極めた選択が重要です。",
+    "reversed_short": "現実への集中、選択の明確化",
+    "reversed_detail": "逆位置では、混乱が晴れ、正しい選択をする意志が強まります。理想と現実のバランスを取り戻すタイミングです。"
+  },
+  {
+    "name": "EIGHT OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "8",
+    "upright_short": "旅立ち、決別、精神的探求、失望",
+    "upright_detail": "満たされない現状を離れ、真の満足を求めて旅立つ決意を表します。感情面での成長や変化の前触れです。執着や過去を捨て去る事が大切です。",
+    "reversed_short": "未練、継続する、現状を見直す",
+    "reversed_detail": "逆位置では、何を手放し、何を続けるべきか現状を見直す時期にいます。少し留まって、内なる声に耳を傾けて。"
+  },
+  {
+    "name": "NINE OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "9",
+    "upright_short": "満足、願望成就、自己肯定感",
+    "upright_detail": "感情的にも物質的にも満たされた状態を表します。願っていたことが形となり、心からの幸福を味わえる時期です。",
+    "reversed_short": "過度な欲望、不満、表面的な幸福、保身的",
+    "reversed_detail": "逆位置では、見かけ上の成功に満足できず、心の奥に虚しさを抱えていることがあります。本当の幸せを見つめ直して。"
+  },
+  {
+    "name": "TEN OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "10",
+    "upright_short": "幸福な家庭、心の平和、感情の完成",
+    "upright_detail": "家族やパートナーとの深い絆、精神的な満足を得られるタイミングです。愛と調和が人生を満たします。",
+    "reversed_short": "不和、理想と現実のギャップ、孤独、落胆、疎遠",
+    "reversed_detail": "逆位置では、身近な人間関係で問題が生じる可能性があります。現実を直視することが必要です。"
+  },
+  {
+    "name": "PAGE OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "page",
+    "upright_short": "純粋無垢、直感的、素直",
+    "upright_detail": "カップのペイジは、純粋な心や、直感的なインスピレーションを象徴します。素直な気持ちを大切に。",
+    "reversed_short": "未熟、わがまま、甘え",
+    "reversed_detail": "逆位置では、感情表現が未熟だったり、遊びに溺れる傾向が強まります。現実と感情のバランスを意識して。"
+  },
+  {
+    "name": "KNIGHT OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "knight",
+    "upright_short": "ロマンチスト、感情の探求、誠実",
+    "upright_detail": "カップのナイトは愛や夢に向かって行動する人物を表します。情熱的で、心に従った行動が幸運を引き寄せます。",
+    "reversed_short": "感情の過剰、現実逃避、偽り",
+    "reversed_detail": "逆位置では、現実から目を背ける傾向や、甘い誘惑・詐欺などに合う可能性が示されます。冷静さを取り戻すことが大切です。"
+  },
+  {
+    "name": "QUEEN OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "queen",
+    "upright_short": "共感、癒し、母性愛、援助",
+    "upright_detail": "カップのクイーンは、優しさと受容性が周囲に安心感を与え、人を癒す力があります。また、そんな人物からの支援の可能性もあります。",
+    "reversed_short": "感情的混乱、嫉妬、堕落的",
+    "reversed_detail": "逆位置では、感情のコントロールが難しくなったり、嫉妬深くなったり、偽りの人間関係に陥る可能性があります。境界を保ち、堕落しないよう気を強く持ちましょう。"
+  },
+  {
+    "name": "KING OF CUPS",
+    "arcana": "minor",
+    "suit": "cups",
+    "rank": "king",
+    "upright_short": "成熟した愛、寛容、思慮深さ",
+    "upright_detail": "カップのキングは感情を冷静にコントロールしつつ、深い愛情を持つ人物です。周囲に安心感と信頼を与えます。",
+    "reversed_short": "不安定、自己中、不貞、下心",
+    "reversed_detail": "逆位置では、自己中心的で節操のなさが表面化する可能性があります。自己満な考えや無節操な行動は控えましょう。"
+  }
+]
