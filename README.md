@@ -1,4 +1,4 @@
-# AI Tarot Fortune Teller 🃏
+# AI Tarot Fortune
 
 ## Overview
 Google Cloud Functions と Gemini API を活用した、サーバーレスなタロット占いシステムです。
