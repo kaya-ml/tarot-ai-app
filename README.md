@@ -36,3 +36,11 @@ ai-tarot-api/
 ├── tarot_cards.json       # タロットカード・マスターデータ (78枚)
 ├── tarot-api.js           # フロントエンドAPI連携ロジック
 └── README.md              # 本ドキュメント
+```
+
+## Challenges & Learning
+- **プロンプトエンジニアリング**: 占いの結果が単なる文字列の羅列にならないよう、専門家のアドバイスとしてのトーン＆マナーを細かく指定しました。
+- **運用を意識した開発**: サーバー費用を最小限に抑えるため、サーバーレス（FaaS）を選択しました。
+
+## Author
+運用中のURL:https://fortunes-for-you.com/ai-tarot-reading/
