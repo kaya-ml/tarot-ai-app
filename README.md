@@ -16,13 +16,13 @@ WordPressで作成した自身のWebサイト上で、実際にサービスと�
 システム全体の流れは以下の通りです。
 ```text
 [User / WordPress] 
-      ↓ (1. 悩みとスプレッドをPOST)
+      ↓ (1. 悩みとスプレッドを入力)
 [Google Cloud Functions (Python)]
       ↓ (2. プロンプトとカード情報を送信)
 [Gemini API]
       ↓ (3. 占いのアドバイスを返却)
 [Google Cloud Functions]
-      ↓ (4. 最終的な結果をレスポンス)
+      ↓ (4. 最終的な結果を返す)
 [WordPress (JSで画面描画)]
 ```
 
