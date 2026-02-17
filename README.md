@@ -36,7 +36,7 @@ WordPressで作成した自身のWebサイト上で、実際にサービスと�
 ```text
 ai-tarot-api/
 ├── main.py                # バックエンドロジック (Cloud Functions)
-├── requirements.txt       # 依存ライブラリ
+├── requirements.txt       # ライブラリ
 ├── tarot_cards.json       # タロットカード・マスターデータ (78枚)
 ├── tarot-api.js           # フロントエンドAPI連携ロジック
 └── README.md
