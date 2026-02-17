@@ -15,12 +15,15 @@ WordPressで作成した自身のWebサイト上で、実際にサービスと�
 ## System Architecture
 システム全体の流れは以下の通りです。
 
-1. **Front-end (WordPress/JS)**: ユーザーの悩みとスプレッドを受け取り、APIへPOST。
-2. **Back-end (Cloud Functions/Python)**: 
-   - 78枚のカードデータからランダムにドロー（正逆位置判定含む）。
-   - 引かれたカードの情報を元にGemini用プロンプトを生成。
-3. **AI (Gemini API)**: プロンプトに基づきアドバイスを生成。
-4. **Response**: 最終的な占い結果をフロントエンドへ返す。
+[User / WordPress] 
+      ↓ (1. 悩みとスプレッドをPOST)
+[Google Cloud Functions (Python)]
+      ↓ (2. プロンプトとカード情報を送信)
+[Gemini API]
+      ↓ (3. 占いのアドバイスを返却)
+[Google Cloud Functions]
+      ↓ (4. 最終的な結果をレスポンス)
+[WordPress (JSで画面描画)]
 
 ## Tech Stack
 - **Languages**: Python 3.12, JavaScript (ES6+)
